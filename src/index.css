@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app{
+  text-align: center;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+  .box {
+  margin-top: -150px;
+  width: 300px;
+  height: 300px;
+  background: #19875446;
+  padding: 20px;
+  border-top: solid 5px #198754 ;
+  }
+  .box_cadastro{
+    margin-top: -150px;
+    width: 300px;
+  height: 400px;
+  background: #19875446;
+  padding: 20px;
+  border-top: solid 5px #198754 ;
+  }
+.texto{
+  color: #198754;
+  text-align: center;
+}
+.btn{
+  margin-top: 10px;
+  margin-left: 35%;
+}
+nav a{
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.heade{
+  background-color: #198754;
+  padding: 20px;
+  color: white;
+}
+.link{
+  color: white;
+  border-bottom: 1px solid white;
+}
+.link:hover{
+  border: none;
+  color: white;
+}
+.btn-sai{
+  margin-left: auto;
+  margin-right: auto; 
+}
